@@ -85,7 +85,7 @@ fact_table.show(5)
 def get_db_connection():
     connection = psycopg2.connect (
         user = 'postgres',
-        password = 'u0987',
+        password = '',
         host = 'localhost',
         port = '',
         database = 'Nuga_Bank_PySpark'
